@@ -40,7 +40,7 @@ const Todos = ({TotalTodos,ReceivedDeleteTodo}) => {
   ];
 
   return (
-    <StyledTable dataSource={dataSource} columns={columns} />
+    <StyledTable dataSource={dataSource} columns={columns} locale={{ emptyText: 'No records found' }} />
   )
 }
 
